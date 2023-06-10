@@ -30,6 +30,7 @@ body {
     background-position: top center;    /* centralizar a img */
     background-size: cover;    /* ocupar todo espaco dependendo do dispositivo  */
     background: var(--bg-url)  no-repeat top center/cover;
+    height: 100vh;
 } 
 
 body *{
@@ -39,7 +40,7 @@ body *{
 }
 
 #container{
-width: 360px;
+/* width: 360px; */
 margin: auto;  /* Alinhar ao meio*/
 padding: 0 24px;
 
@@ -165,4 +166,19 @@ background: rgba(255, 255, 255, 0.2);
 footer{
     padding: 24px;
     text-align: center;
+}
+
+@media (min-width: 700px) {
+
+    :root {
+           
+         --br-url: url(./acssec/bg-desktop-dark.jpg);
+
+    }
+
+    .light {
+
+        --bg-url: url(./acssec/bg-mobile-light.jpg);
+    }
+    
 }
