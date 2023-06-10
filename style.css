@@ -93,7 +93,6 @@ padding: 0 24px;
     outline: 8px solid var(--highlight--color);
 }
 
-
 #switch span{
     display: block;
     width: 64px;
@@ -104,14 +103,6 @@ padding: 0 24px;
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
-
-
-
-
-
-
-
-
 ul li a {
     display: flex;
     align-items: center; /*alinhar o txt no meio da caixa*/
